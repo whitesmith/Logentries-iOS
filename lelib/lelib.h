@@ -8,3 +8,8 @@
 
 #import "LELog.h"
 #import "lecore.h"
+#import "LEBackgroundThread.h"
+#import "LeNetworkStatus.h"
+#import "LogFile.h"
+#import "LogFiles.h"
+#import "lelib-iOS-dynamic.h"
