@@ -12,6 +12,7 @@
 #import "LEBackgroundThread.h"
 #import "LogFiles.h"
 #import "lelib.h"
+#import "lecore.h"
 
 
 extern LEBackgroundThread* backgroundThread;

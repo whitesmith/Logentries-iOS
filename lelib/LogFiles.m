@@ -9,6 +9,7 @@
 #import "LogFiles.h"
 #import "LELog.h"
 #import "lelib.h"
+#import "lecore.h"
 
 
 #define CACHES_DIRECTORY_BASENAME       @"logentries"

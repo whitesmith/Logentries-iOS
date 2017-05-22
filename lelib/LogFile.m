@@ -9,6 +9,7 @@
 #import "LogFile.h"
 #import "LogFiles.h"
 #import "lelib.h"
+#import "lecore.h"
 
 #define NAME_NUMBER_LENGTH          10
 #define LOG_EXTENSION               @".log"

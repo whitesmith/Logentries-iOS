@@ -11,6 +11,7 @@
 #import "LogFiles.h"
 #import "LELog.h"
 #import "LeNetworkStatus.h"
+#import "lecore.h"
 
 #define LOGENTRIES_HOST         @"data.logentries.com"
 #define LOGENTRIES_USE_TLS      1

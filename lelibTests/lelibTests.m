@@ -8,7 +8,7 @@
 
 #import <XCTest/XCTest.h>
 
-#import "lelib.h"
+#import "lelib/lelib.h"
 
 @interface lelibTests : XCTestCase
 

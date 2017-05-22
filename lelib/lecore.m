@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Logentries. All rights reserved.
 //
 
-
+#include "lecore.h"
 
 #include "LEBackgroundThread.h"
 #include "LogFiles.h"

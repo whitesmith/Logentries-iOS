@@ -36,7 +36,6 @@
 		4BBB74FC184AC89600B393BC /* LEBackgroundThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBB74F9184AC86F00B393BC /* LEBackgroundThread.m */; };
 		4BE1B5C81897BF5C008DD96E /* LeNetworkStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE1B5C71897BF5C008DD96E /* LeNetworkStatus.m */; };
 		4BE1B5C91897BF61008DD96E /* LeNetworkStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE1B5C71897BF5C008DD96E /* LeNetworkStatus.m */; };
-		7EEE35561AB46DBF00668C3E /* lelib-iOS-dynamic.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EEE35551AB46DBF00668C3E /* lelib-iOS-dynamic.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7EEE355C1AB46DBF00668C3E /* lelib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EEE35511AB46DBF00668C3E /* lelib.framework */; };
 		7EEE356A1AB46DE500668C3E /* lelibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BB806BE181D3DF1003066E5 /* lelibTests.m */; };
 		7EEE356B1AB46E2A00668C3E /* LeNetworkStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE1B5C71897BF5C008DD96E /* LeNetworkStatus.m */; };
@@ -52,7 +51,6 @@
 		7EEE35751AB46E7600668C3E /* LogFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BBA0161184BDEE000AB5C9A /* LogFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7EEE35761AB46E7600668C3E /* LogFiles.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BBA0165184BDEFC00AB5C9A /* LogFiles.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7EEE35771AB46E7600668C3E /* lecore.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B50E3DD187B4D7C007DCFE5 /* lecore.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7EEE35821AB46F5C00668C3E /* lelib-iOS-static.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EEE35811AB46F5C00668C3E /* lelib-iOS-static.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7EEE35961AB46FA200668C3E /* LeNetworkStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE1B5C71897BF5C008DD96E /* LeNetworkStatus.m */; };
 		7EEE35971AB46FA200668C3E /* LEBackgroundThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBB74F9184AC86F00B393BC /* LEBackgroundThread.m */; };
 		7EEE35981AB46FA200668C3E /* LELog.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B08F54918436082003D813B /* LELog.m */; };
@@ -128,7 +126,6 @@
 		4BB806BA181D3DF1003066E5 /* lelibTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "lelibTests-Info.plist"; sourceTree = "<group>"; };
 		4BB806BC181D3DF1003066E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4BB806BE181D3DF1003066E5 /* lelibTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lelibTests.m; sourceTree = "<group>"; };
-		4BB806C8181D3E69003066E5 /* TODO.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = TODO.txt; path = Doc/TODO.txt; sourceTree = SOURCE_ROOT; };
 		4BBA0161184BDEE000AB5C9A /* LogFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogFile.h; sourceTree = "<group>"; };
 		4BBA0162184BDEE000AB5C9A /* LogFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogFile.m; sourceTree = "<group>"; };
 		4BBA0165184BDEFC00AB5C9A /* LogFiles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogFiles.h; sourceTree = "<group>"; };
@@ -139,12 +136,10 @@
 		4BE1B5C71897BF5C008DD96E /* LeNetworkStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeNetworkStatus.m; sourceTree = "<group>"; };
 		7EEE35511AB46DBF00668C3E /* lelib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = lelib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EEE35541AB46DBF00668C3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7EEE35551AB46DBF00668C3E /* lelib-iOS-dynamic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "lelib-iOS-dynamic.h"; sourceTree = "<group>"; };
 		7EEE355B1AB46DBF00668C3E /* lelib-iOS-dynamicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "lelib-iOS-dynamicTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EEE35611AB46DBF00668C3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7EEE357D1AB46F5C00668C3E /* lelib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = lelib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EEE35801AB46F5C00668C3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7EEE35811AB46F5C00668C3E /* lelib-iOS-static.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "lelib-iOS-static.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -287,11 +282,11 @@
 		4BB806A4181D3DF1003066E5 /* lelib */ = {
 			isa = PBXGroup;
 			children = (
-				4BE1B5C71897BF5C008DD96E /* LeNetworkStatus.m */,
+				4BB806A7181D3DF1003066E5 /* lelib.h */,
 				4BE1B5C61897BF57008DD96E /* LeNetworkStatus.h */,
+				4BE1B5C71897BF5C008DD96E /* LeNetworkStatus.m */,
 				4BBB74FB184AC88600B393BC /* LEBackgroundThread.h */,
 				4BBB74F9184AC86F00B393BC /* LEBackgroundThread.m */,
-				4BB806A7181D3DF1003066E5 /* lelib.h */,
 				4B08F54818436082003D813B /* LELog.h */,
 				4B08F54918436082003D813B /* LELog.m */,
 				4BB806A5181D3DF1003066E5 /* Supporting Files */,
@@ -308,7 +303,6 @@
 		4BB806A5181D3DF1003066E5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				4BB806C8181D3E69003066E5 /* TODO.txt */,
 				4BB806A6181D3DF1003066E5 /* lelib-Prefix.pch */,
 			);
 			name = "Supporting Files";
@@ -335,7 +329,6 @@
 		7EEE35521AB46DBF00668C3E /* lelib-iOS-dynamic */ = {
 			isa = PBXGroup;
 			children = (
-				7EEE35551AB46DBF00668C3E /* lelib-iOS-dynamic.h */,
 				7EEE35531AB46DBF00668C3E /* Supporting Files */,
 			);
 			path = "lelib-iOS-dynamic";
@@ -368,7 +361,6 @@
 		7EEE357E1AB46F5C00668C3E /* lelib-iOS-static */ = {
 			isa = PBXGroup;
 			children = (
-				7EEE35811AB46F5C00668C3E /* lelib-iOS-static.h */,
 				7EEE357F1AB46F5C00668C3E /* Supporting Files */,
 			);
 			path = "lelib-iOS-static";
@@ -389,7 +381,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EEE35561AB46DBF00668C3E /* lelib-iOS-dynamic.h in Headers */,
 				7EEE35711AB46E7600668C3E /* LeNetworkStatus.h in Headers */,
 				7EEE35721AB46E7600668C3E /* LEBackgroundThread.h in Headers */,
 				7EEE35731AB46E7600668C3E /* lelib.h in Headers */,
@@ -410,7 +401,6 @@
 				7EEE35A11AB46FB000668C3E /* LogFiles.h in Headers */,
 				7EEE359E1AB46FB000668C3E /* lelib.h in Headers */,
 				7EEE359C1AB46FB000668C3E /* LeNetworkStatus.h in Headers */,
-				7EEE35821AB46F5C00668C3E /* lelib-iOS-static.h in Headers */,
 				7EEE35A01AB46FB000668C3E /* LogFile.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
