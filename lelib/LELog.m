@@ -14,7 +14,6 @@
 #import "lelib.h"
 #import "lecore.h"
 
-
 extern LEBackgroundThread* backgroundThread;
 
 extern dispatch_queue_t le_write_queue;
