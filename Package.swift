@@ -17,7 +17,8 @@ let package = Package(
         .target(
             name: "LogEntries",
             path: ".",
-            sources: ["lelib"]
+            sources: ["lelib"],
+            publicHeadersPath: "include"
         )
     ]
 )
